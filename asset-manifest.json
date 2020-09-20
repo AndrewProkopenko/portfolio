@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.5f361e03.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.e8d9b2b6.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.e8d9b2b6.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.f54060b7.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.f54060b7.js.map",
-    "static/js/2.4c736102.chunk.js": "/react-gh-pages/static/js/2.4c736102.chunk.js",
-    "static/js/2.4c736102.chunk.js.map": "/react-gh-pages/static/js/2.4c736102.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.963fdd14f91a97c20c761b04da7b289c.js": "/react-gh-pages/precache-manifest.963fdd14f91a97c20c761b04da7b289c.js",
-    "service-worker.js": "/react-gh-pages/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/react-gh-pages/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.4c736102.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.4c736102.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.5d5d9eef.svg"
+    "main.css": "/portfolio2/static/css/main.5f361e03.chunk.css",
+    "main.js": "/portfolio2/static/js/main.e11e86d7.chunk.js",
+    "main.js.map": "/portfolio2/static/js/main.e11e86d7.chunk.js.map",
+    "runtime-main.js": "/portfolio2/static/js/runtime-main.afe67eb9.js",
+    "runtime-main.js.map": "/portfolio2/static/js/runtime-main.afe67eb9.js.map",
+    "static/js/2.4c736102.chunk.js": "/portfolio2/static/js/2.4c736102.chunk.js",
+    "static/js/2.4c736102.chunk.js.map": "/portfolio2/static/js/2.4c736102.chunk.js.map",
+    "index.html": "/portfolio2/index.html",
+    "precache-manifest.ce56475525ea745a427008dfdfc7a49c.js": "/portfolio2/precache-manifest.ce56475525ea745a427008dfdfc7a49c.js",
+    "service-worker.js": "/portfolio2/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/portfolio2/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4c736102.chunk.js.LICENSE.txt": "/portfolio2/static/js/2.4c736102.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/portfolio2/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f54060b7.js",
+    "static/js/runtime-main.afe67eb9.js",
     "static/js/2.4c736102.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.e8d9b2b6.chunk.js"
+    "static/js/main.e11e86d7.chunk.js"
   ]
 }
