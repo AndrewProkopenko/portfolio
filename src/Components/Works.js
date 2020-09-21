@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import WorkCategoryConteiner from './WorkCategoryConteiner'
 
 import VueData from  '../data/vue-data.json'
+import ReactData from  '../data/react-data.json'
+import HtmlData from  '../data/html-data.json'
 
 function Works() {
     const [activeTab, setActiveTab] = useState(1)
@@ -29,7 +31,7 @@ function Works() {
                 click for more view on GitHub 
               </p>
               <ul>
-                  <li className="active" onClick={hendlerTabs}>
+                  <li className="active" >
                       <Link to="#" className={`${isActive(1)}`} onClick={hendlerTabs} data-tab-btn = '1'>
                           React 
                       </Link>
@@ -49,13 +51,13 @@ function Works() {
           <div className="portfolio-works_content">
             
               <div className={`portfolio-works_content-box ${isActive(1)}`}>
-                <WorkCategoryConteiner data={VueData}  />
+                 <WorkCategoryConteiner data={ReactData}  />
               </div>
               <div className={`portfolio-works_content-box ${isActive(2)}`}>
-                  <span>contacts2</span>
+                <WorkCategoryConteiner data={VueData}  />
               </div>
               <div className={`portfolio-works_content-box ${isActive(3)}`}>
-                  <span>contacts3</span>
+                <WorkCategoryConteiner data={HtmlData}  />
               </div>
           </div>
         </div> 

@@ -1,7 +1,30 @@
 [
     { 
-        "img": "vue.jpg", 
-        "title": "title", 
-        "description": "description" 
-    } 
+        "img": "/portfolio2/img/vue.jpg", 
+        "url": "https://github.com/AndrewProkopenko/vue-blog-app",
+        "viewUrl": "",
+        "title": "Vue Blog App", 
+        "description": "Backend: Adonis, Frontend: Vue.js " 
+    } ,
+    { 
+        "img": "/portfolio2/img/vue.jpg", 
+        "url": "https://github.com/AndrewProkopenko/vue-online-shop",
+        "viewUrl": "",
+        "title": "Vue Shop", 
+        "description": "Small Online Shop with Cart on Vue.js " 
+    } ,
+    { 
+        "img": "/portfolio2/img/vue.jpg", 
+        "url": "https://github.com/AndrewProkopenko/vue_vuex",
+        "viewUrl": "",
+        "title": "Vuex CRUD App", 
+        "description": "CRUD app with Vuex" 
+    } ,
+    { 
+        "img": "/portfolio2/img/vue.jpg", 
+        "url": "https://github.com/AndrewProkopenko/vue_crud",
+        "viewUrl": "",
+        "title": "Vue CRUD App", 
+        "description": "CRUD app jn Vue.js" 
+    }  
 ]

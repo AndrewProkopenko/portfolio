@@ -1,0 +1,86 @@
+[
+    { 
+        "img": "/portfolio2/img/landing-recyrcle.jpg", 
+        "url": "https://github.com/AndrewProkopenko/recyrcle",
+        "viewUrl": "https://andrewprokopenko.github.io/recyrcle/",
+        "title": "Recyrcle Layout", 
+        "description": "Layout Development" 
+    },
+    { 
+        "img": "/portfolio2/img/landing-mac.jpg", 
+        "url": "https://github.com/AndrewProkopenko/recyrcle",
+        "viewUrl": "https://andrewprokopenko.github.io/recyrcle/",
+        "title": "Mac Repair Layout", 
+        "description": "Layout Development"  
+    },
+    { 
+        "img": "/portfolio2/img/bundaloo.jpg", 
+        "url": "https://bundalooproducts.com/",
+        "viewUrl": "https://bundalooproducts.com/",
+        "title": "Bundaloo", 
+        "description": "Shopify Development"  
+    },
+    { 
+        "img": "/portfolio2/img/landing-acer.jpg", 
+        "url": "https://github.com/AndrewProkopenko/acer_repair",
+        "viewUrl": "https://andrewprokopenko.github.io/acer_repair/",
+        "title": "Acer Repair Layout", 
+        "description": "Layout Development"  
+    },
+    { 
+        "img": "/portfolio2/img/landing-lenovo.jpg", 
+        "url": "https://github.com/AndrewProkopenko/lenovo_repair",
+        "viewUrl": "https://andrewprokopenko.github.io/lenovo_repair/",
+        "title": "Lenovo Repair Layout", 
+        "description": "Layout Development"  
+    },
+    { 
+        "img": "/portfolio2/img/landing-electro.jpg", 
+        "url": "https://github.com/AndrewProkopenko/electro_repair",
+        "viewUrl": "https://andrewprokopenko.github.io/electro_repair/",
+        "title": "Worker Layout", 
+        "description": "Layout Development"  
+    },
+    { 
+        "img": "/portfolio2/img/landing-kondi.jpg", 
+        "url": "https://github.com/AndrewProkopenko/kondi",
+        "viewUrl": "https://andrewprokopenko.github.io/kondi/",
+        "title": "Kondi Layout", 
+        "description": "Layout Development"  
+    },
+    { 
+        "img": "/portfolio2/img/landing-kr.jpg", 
+        "url": "https://github.com/AndrewProkopenko/kr_repair",
+        "viewUrl": "https://andrewprokopenko.github.io/kr_repair/",
+        "title": "Repair in Krasnodar Layout", 
+        "description": "Layout Development"  
+    },
+    { 
+        "img": "/portfolio2/img/landing-ref.jpg", 
+        "url": "https://github.com/AndrewProkopenko/ref_repair",
+        "viewUrl": "https://andrewprokopenko.github.io/ref_repair/",
+        "title": "Fridge Repair Layout", 
+        "description": "Layout Development"  
+    }, 
+    { 
+        "img": "/portfolio2/img/landing-tv.jpg", 
+        "url": "https://github.com/AndrewProkopenko/tv_master",
+        "viewUrl": "https://andrewprokopenko.github.io/tv_master/",
+        "title": "TV Repair Layout", 
+        "description": "Layout Development"  
+    }, 
+    { 
+        "img": "/portfolio2/img/landing-var.jpg", 
+        "url": "https://github.com/AndrewProkopenko/var_repair",
+        "viewUrl": "https://andrewprokopenko.github.io/var_repair/",
+        "title": "Hob Repair Layout", 
+        "description": "Layout Development"  
+    }, 
+    { 
+        "img": "/portfolio2/img/landing-washer.jpg", 
+        "url": "https://github.com/AndrewProkopenko/wash_repair",
+        "viewUrl": "https://andrewprokopenko.github.io/wash_repair/",
+        "title": "Washer Repair Layout", 
+        "description": "Layout Development"  
+    }
+]
