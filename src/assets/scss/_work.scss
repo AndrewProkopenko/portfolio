@@ -1,0 +1,75 @@
+.portfolio-contact { 
+    // margin-bottom: 1000px;
+    margin-top: 500px;
+}
+.portfolio-works{  
+
+    &_head { 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p { 
+            margin: 10px 0;
+            color: #666;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        ul {
+            display: flex; 
+            justify-content: flex-end;
+            margin: 0;
+            padding: 0;
+            li { 
+                list-style: none;
+                a { 
+                    position: relative;
+                    z-index: 4;
+                    display: inline-block;
+  
+                    font-size: 16px;
+                    line-height: 18px; 
+                    margin: 0 15px; 
+
+                    text-decoration: none;
+                    color: rgb(102, 102, 102);     
+                    transition: 300ms ease;
+                     
+                    &:hover {  
+                        color: $gold;
+                    }
+                }
+                a.active { 
+                    position: relative;
+                    color: $gold;
+                    &::after { 
+                        content: ''; 
+                        position: absolute;
+                        bottom: -3px;
+                        left: -5%;
+                        right: 0;
+                        background: $gold;
+                        height: 1px;
+                        width: 110%;
+                    }
+                }
+            }
+        }
+    }
+    &_content {   
+        // margin-top: 20px;
+        &-box {  
+            display: none;
+
+            width: 100%;
+            height: 100%;
+            background: rgb(82, 218, 69);
+            padding: 25px;
+        }
+      
+        .active { 
+            display: flex;
+            position: relative;
+        }
+    }
+    
+}
