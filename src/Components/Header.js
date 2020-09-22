@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
 function Header() {
     return (
         <div className="  portfolio-header ">
@@ -18,7 +20,7 @@ function Header() {
             </div>
 
             <div className="col-12 col-md-6">
-              {/* <div className=" portfolio-header-menu">
+              <div className=" portfolio-header-menu">
                 <ul>
                   <li>
                     <Link> 
@@ -36,7 +38,7 @@ function Header() {
                     </Link>
                   </li>
                 </ul>
-              </div> */}
+              </div>
           </div>
           </div>
         </div>

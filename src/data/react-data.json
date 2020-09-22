@@ -9,7 +9,7 @@
     { 
         "img": "/portfolio2/img/react.jpg", 
         "url": "https://github.com/AndrewProkopenko/react_crud",
-        "viewUrl": " ",
+        "viewUrl": "",
         "title": "CRUD App", 
         "description": "React CRUD App" 
     },
