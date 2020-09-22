@@ -1,34 +1,34 @@
 [
     { 
-        "img": "/portfolio2/img/react.jpg", 
+        "img": "/portfolio/img/react.jpg", 
         "url": "https://github.com/AndrewProkopenko/react_meal",
         "viewUrl": "https://andrewprokopenko.github.io/react_meal/",
         "title": "Meal App", 
         "description": "React App on public API" 
     },
     { 
-        "img": "/portfolio2/img/react.jpg", 
+        "img": "/portfolio/img/react.jpg", 
         "url": "https://github.com/AndrewProkopenko/react_crud",
         "viewUrl": "",
         "title": "CRUD App", 
         "description": "React CRUD App" 
     },
     { 
-        "img": "/portfolio2/img/react.jpg", 
+        "img": "/portfolio/img/react.jpg", 
         "url": "https://github.com/AndrewProkopenko/react_quiz",
         "viewUrl": "https://andrewprokopenko.github.io/react_quiz/",
         "title": "Quiz App", 
         "description": "React Quiz App with Hard Javascript Questions" 
     },
     { 
-        "img": "/portfolio2/img/react.jpg", 
+        "img": "/portfolio/img/react.jpg", 
         "url": "https://github.com/AndrewProkopenko/react_calc",
         "viewUrl": "https://andrewprokopenko.github.io/react_calc/",
         "title": "Calculator on React", 
         "description": "" 
     },
     { 
-        "img": "/portfolio2/img/react.jpg", 
+        "img": "/portfolio/img/react.jpg", 
         "url": "https://github.com/AndrewProkopenko/react-wp",
         "viewUrl": "",
         "title": "WP React", 
