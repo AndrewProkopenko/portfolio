@@ -24,9 +24,10 @@ function Works() {
 
     return (
         <div className='portfolio-works'>  
+        <div id='works'></div>
         <div className="container">
           <div className="portfolio-works_head">
-              <p>
+              <p className='portfolio-title'>
                 Works presented here, <br/>
                 click for more view on GitHub 
               </p>

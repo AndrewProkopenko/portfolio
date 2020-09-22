@@ -14,7 +14,20 @@
                     }
                     .info-btn { 
                         opacity: 0;
+                        &:hover { 
+                            opacity: .7 !important;
+                        } 
                     }
+                   
+                }
+                .item:hover { 
+                    a, .info-btn { 
+                        opacity: 1;
+                    }
+                    h5 { 
+                        opacity: 0;
+                    }
+    
                 }
             }
         }
@@ -34,7 +47,34 @@
 }
 
 @media screen and (max-width: 576px) {
-
+    .portfolio { 
+        &-header { 
+            height: 50vh;
+            &-menu {
+                ul {
+                    flex-direction: column;
+                    li { 
+                        margin-left: 0;
+                        text-align: right;
+                    }
+                }
+                
+            }
+        }
+        &-works { 
+            &_content { 
+                &-box {
+                    .item {
+                        max-width: 250px;
+                        height: 120px;
+                        margin-bottom: 15px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    } 
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 420px)  {

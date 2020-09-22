@@ -11,7 +11,7 @@
         "url": "https://github.com/AndrewProkopenko/vue-online-shop",
         "viewUrl": "",
         "title": "Vue Shop", 
-        "description": "Small Online Shop with Cart on Vue.js " 
+        "description": "Small Online Shop on Vue.js " 
     } ,
     { 
         "img": "/portfolio2/img/vue.jpg", 
@@ -25,6 +25,6 @@
         "url": "https://github.com/AndrewProkopenko/vue_crud",
         "viewUrl": "",
         "title": "Vue CRUD App", 
-        "description": "CRUD app jn Vue.js" 
+        "description": "CRUD app on Vue.js" 
     }  
 ]

@@ -11,7 +11,7 @@
         "url": "https://github.com/AndrewProkopenko/mac_repair",
         "viewUrl": "https://andrewprokopenko.github.io/mac_repair/",
         "title": "Mac Repair Layout", 
-        "description": "Layout Development"  
+        "description": "Layout Development, used by Vue for price calculation"  
     },
     { 
         "img": "/portfolio2/img/bundaloo.jpg", 

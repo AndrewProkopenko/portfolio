@@ -1,194 +1,215 @@
-.portfolio-contact { 
-    // margin-bottom: 1000px;
-    margin-top: 500px;
+.portfolio-title { 
+    margin: 0;
+    color: #666;
+    font-size: 16px;
+    line-height: 20px;
 }
-.portfolio-works{  
-    position: relative;
-    z-index: 5;
-    background: $bg-color;
-    &_head { 
+.portfolio { 
+    
+    &-works{  
         position: relative;
         z-index: 5;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
         background: $bg-color;
-        p { 
-            margin: 10px 0;
-            color: #666;
-            font-size: 16px;
-            line-height: 20px;
-        }
-        ul {
-            display: flex; 
-            justify-content: flex-end;
-            margin: 0;
-            padding: 0;
-            li { 
-                list-style: none;
-                a { 
-                    position: relative;
-                    z-index: 4;
-                    display: inline-block;
-  
-                    font-size: 16px;
-                    line-height: 18px; 
-                    margin: 0 15px; 
-
-                    text-decoration: none;
-                    color: rgb(102, 102, 102);     
-                    transition: 300ms ease;
-                     
-                    &:hover {  
-                        color: $gold;
+        padding-bottom: 50px;
+        &_head { 
+            position: relative;
+            z-index: 5;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: $bg-color;
+            // padding: 15px 0;
+            padding-bottom: 15px;
+            // &:after { 
+            //     content: '';
+            //     position: absolute;
+            //     top: -50px;
+            //     left: 0;
+            //     width: 100%;
+            //     height: 50px; 
+            //     background: linear-gradient(180deg, rgba(250,250,250,0) 0%, rgba(250,250,250,0.5) 50%, rgba(250,250,250,1) 100%);
+            // }
+            .portfolio-title { 
+                margin: 0;
+                color: #666;
+                font-size: 16px;
+                line-height: 20px;
+            }
+            ul {
+                display: flex; 
+                justify-content: flex-end;
+                margin: 0;
+                padding: 0;
+                li { 
+                    list-style: none;
+                    a { 
+                        position: relative;
+                        z-index: 4;
+                        display: inline-block;
+      
+                        font-size: 16px;
+                        line-height: 18px; 
+                        margin: 0 15px; 
+    
+                        text-decoration: none;
+                        color: rgb(102, 102, 102);     
+                        transition: 300ms ease;
+                         
+                        &:hover {  
+                            color: $gold;
+                        }
                     }
-                }
-                a.active { 
-                    position: relative;
-                    color: $gold;
-                    &::after { 
-                        content: ''; 
-                        position: absolute;
-                        bottom: -3px;
-                        left: -5%;
-                        right: 0;
-                        background: $gold;
-                        height: 1px;
-                        width: 110%;
+                    a.active { 
+                        position: relative;
+                        color: $gold;
+                        &::after { 
+                            content: ''; 
+                            position: absolute;
+                            bottom: -3px;
+                            left: 0;
+                            right: 0;
+                            background: $gold;
+                            opacity: .7;
+                            height: 2px;
+                            border-radius: 2px;
+                            width: 100%;
+                        }
                     }
                 }
             }
         }
-    }
-    &_content {   
-        // margin-top: 20px;
-        &-box {  
-            display: none;
-
-            width: 100%;
-            height: 100%; 
-            .item {  
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: flex-end;
+        &_content {   
+            // margin-top: 20px;
+            &-box {  
+                display: none;
+    
                 width: 100%;
-                height: 150px;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-
-                margin-bottom: 30px;
-                h5 { 
-                    text-align: center;
-                    // width: 80%;
-                    margin-bottom: 15px;
-                    background: $bg-color;
-                    opacity: .8;
-                    padding: 5px 7px;
-                }
-                a { 
-
-                    opacity: 0; 
-
-                    display: inline-flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    background: #ffffff;
-                    border-radius: 100%;
-                    padding: 10px;
-                    width: 40px;
-                    height: 40px;
-                    margin-bottom: 15px;
-                    margin-left: 7px;
-                    margin-right: 7px;
-
-                    transition: 300ms ease;
-                    svg { 
-                        width: 25px;
-                        height: 25px;
-                        transition: 300ms ease;
-                    }
-                    &:hover { 
-                       background: rgba(0, 0, 0, 0.3);
-                       svg {
-                           fill: #fff;
-                       }
-                    } 
-                   
-                }
-                .link-url { 
-                    left: calc(50% - 50px);  
-                }
-                .link-view { 
-                    right: calc(50% - 50px);  
-                }
-
-                .info-btn { 
-                    position: absolute;
-                    z-index: 2;
-                    top:  8px;
-                    right: 8px;
+                height: 100%; 
+                .item {  
+                    position: relative;
                     display: flex;
-                    justify-content: center;
+                    flex-direction: column;
                     align-items: center;
-
-                    width: 20px;
-                    height: 20px;
-                    
-                    background: #ffffff;
-                    padding: 8px;
-                    border: 4px solid #fff;
-                    border-radius: 100%;
-                    cursor: pointer;
-                    transition: 300ms ease;
-                    background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='iso-8859-1'?%3E%3C!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 330 330' style='enable-background:new 0 0 330 330;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M165,0C74.019,0,0,74.02,0,165.001C0,255.982,74.019,330,165,330s165-74.018,165-164.999C330,74.02,255.981,0,165,0z M165,300c-74.44,0-135-60.56-135-134.999C30,90.562,90.56,30,165,30s135,60.562,135,135.001C300,239.44,239.439,300,165,300z'/%3E%3Cpath d='M164.998,70c-11.026,0-19.996,8.976-19.996,20.009c0,11.023,8.97,19.991,19.996,19.991 c11.026,0,19.996-8.968,19.996-19.991C184.994,78.976,176.024,70,164.998,70z'/%3E%3Cpath d='M165,140c-8.284,0-15,6.716-15,15v90c0,8.284,6.716,15,15,15c8.284,0,15-6.716,15-15v-90C180,146.716,173.284,140,165,140z '/%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
+                    justify-content: flex-end;
+                    width: 100%;
+                    height: 150px;
+                    background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
-                    background-position: center;
-                    &:hover { 
-                        opacity: .7;
+    
+                    margin-bottom: 30px;
+                    h5 { 
+                        text-align: center;
+                        // width: 80%;
+                        margin-bottom: 15px;
+                        background: $bg-color;
+                        opacity: .9;
+                        padding: 5px 7px;
+                        transition: 250ms ease;
+                    }
+                    a {   
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+    
+                        background: #ffffff;
+                        border-radius: 100%;
+                        padding: 10px;
+                        width: 40px;
+                        height: 40px;
+                        margin-bottom: 15px;
+                        margin-left: 7px;
+                        margin-right: 7px;
+    
+                        transition: 300ms ease;
+                        svg { 
+                            width: 25px;
+                            height: 25px;
+                            transition: 300ms ease;
+                        }
+                        &:hover { 
+                           background: rgba(0, 0, 0, 0.3);
+                           svg {
+                               fill: #fff;
+                           }
+                        } 
+                       
+                    }
+                    .link-url { 
+                        left: calc(50% - 50px);  
+                    }
+                    .link-view { 
+                        right: calc(50% - 50px);  
+                    }
+    
+                    .info-btn { 
+                        position: absolute;
+                        z-index: 2;
+                        top:  8px;
+                        right: 8px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+    
+                        width: 30px;
+                        height: 30px;
+                        
+                        background: #ffffff;
+                        padding: 8px;
+                        border: 4px solid #fff;
+                        border-radius: 100%;
+                        cursor: pointer;
+                        transition: 300ms ease;
+                        background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='iso-8859-1'?%3E%3C!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 330 330' style='enable-background:new 0 0 330 330;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M165,0C74.019,0,0,74.02,0,165.001C0,255.982,74.019,330,165,330s165-74.018,165-164.999C330,74.02,255.981,0,165,0z M165,300c-74.44,0-135-60.56-135-134.999C30,90.562,90.56,30,165,30s135,60.562,135,135.001C300,239.44,239.439,300,165,300z'/%3E%3Cpath d='M164.998,70c-11.026,0-19.996,8.976-19.996,20.009c0,11.023,8.97,19.991,19.996,19.991 c11.026,0,19.996-8.968,19.996-19.991C184.994,78.976,176.024,70,164.998,70z'/%3E%3Cpath d='M165,140c-8.284,0-15,6.716-15,15v90c0,8.284,6.716,15,15,15c8.284,0,15-6.716,15-15v-90C180,146.716,173.284,140,165,140z '/%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        
+     
                     } 
- 
-                } 
-                .info { 
-                    position: absolute;
-                    z-index: -1;
-                    top: 0;
-                    left: 0;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 100%;
-                    height: 100%;
-                    padding: 15px;
-                    text-align: center;
-                    background: rgba(0, 0, 0, 0.95);
-                    color: #fff;
-
-                    opacity: 0; 
-                    transition: 300ms ease;
-                }
-
-                .info-btn.active + .info { 
-                    opacity: 1;
-                    z-index: 1;
-                } 
-
-                &:hover { 
-                    a, .info-btn { 
+                    .info { 
+                        position: absolute;
+                        z-index: -1;
+                        top: 0;
+                        left: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        height: 100%;
+                        padding: 15px;
+                        text-align: center;
+                        background: rgba(0, 0, 0, 0.95);
+                        color: #fff;
+    
+                        opacity: 0; 
+                        transition: 300ms ease;
+                    }
+    
+                    .info-btn.active + .info { 
                         opacity: 1;
+                        z-index: 1;
+                    } 
+    
+                    
+                }
+                .item.empty-item { 
+                    justify-content: center;
+                    border: 1px solid #e4e4e4;
+                    span { 
+                        font-size: 14px;
+                        font-weight: 300;
+                        color: #666;
                     }
                 }
+                
+            }
+          
+            .active { 
+                display: flex;
+                position: relative;
             }
         }
-      
-        .active { 
-            display: flex;
-            position: relative;
-        }
+        
     }
-    
 }

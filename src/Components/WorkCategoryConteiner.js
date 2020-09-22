@@ -1,11 +1,8 @@
 import React from 'react' 
 
 function WorkCategoryConteiner(props) {
-    // React.useEffect( () => { 
-    //     console.log(props.data)
-    // })
-    function hendlerDescription(e) { 
-        console.log(e.target)
+    
+    function hendlerDescription(e) {  
         e.target.classList.toggle('active')
     }
     return (
@@ -99,6 +96,11 @@ function WorkCategoryConteiner(props) {
                     </div>
                 ))
             }
+            <div className='col-12 col-sm-6 col-md-4 col-lg-3 '>
+                <div className='item empty-item'> 
+                    <span>Your projects may be here soon</span>
+                </div>
+            </div>
         </div>
     )
 }

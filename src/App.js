@@ -5,19 +5,18 @@ import {
 
 import Header from './Components/Header'
 import Works from './Components/Works'
+import Contacts from './Components/Contacts'
+import About from './Components/About'
 
 function App() {
    
 
   return (
-    <Router>
-     
-     <Header/>
-     <Works/>
-         
-     
-      
-    
+    <Router> 
+        <Header/>
+        <Works/>
+        <Contacts/>
+        <About/> 
     </Router>
   );
 }

@@ -1,0 +1,12 @@
+.portfolio-about { 
+    padding-top: 100px;
+    padding-bottom: 300px;
+    position: relative;
+    z-index: 2;
+    background: $bg-color; 
+    h3 { 
+        text-align: center;
+        font-weight: normal;
+        font-size: 30px;
+    }
+}
