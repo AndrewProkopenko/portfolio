@@ -98,6 +98,9 @@
                     background-size: cover;
     
                     margin-bottom: 30px;
+                     
+                    // border: 1px solid $gold;
+                    background-color: #eee ;
                     h5 { 
                         text-align: center;
                         // width: 80%;
@@ -194,10 +197,14 @@
                     
                 }
                 .item.empty-item { 
-                    justify-content: center;
-                    border: 1px solid #e4e4e4;
+                    border: 1px solid #e4e4e4; 
+                    background: none;
+                    justify-content: center; 
                     span { 
+                        padding: 0 15px;
+                        text-align: center;
                         font-size: 14px;
+                        line-height: 22px;
                         font-weight: 300;
                         color: #666;
                     }

@@ -16,12 +16,19 @@ function Contacts() {
                   <a href='tg://resolve?domain=shemirg'> 
                       t.me/shemirg 
                   </a> 
+                  <span>
+                    - preferable
+                  </span>
                 </li>  
                 <li>
-                  <a href="skype:i.andrewprokopenko?chat" >skype</a> 
+                  <a href="skype:i.andrewprokopenko?chat" >
+                    Skype: i.andrewprokopenko
+                  </a> 
                 </li>  
                 <li>
-                  <a href="mailto:i.andrewprokopenko@gmail.com"> mail </a>  
+                  <a href="mailto:i.andrewprokopenko@gmail.com"> 
+                  i.andrewprokopenko@gmail.com
+                  </a>  
                 </li>  
               </ul> 
           </div>

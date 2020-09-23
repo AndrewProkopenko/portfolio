@@ -43,6 +43,10 @@
 }
 
 @media screen and (max-width: 767px) {
+    .portfolio-about {
+        padding-top: 40px;
+        padding-bottom: 50px;
+     }
 
 }
 
@@ -71,6 +75,27 @@
                         margin-left: auto;
                         margin-right: auto;
                     } 
+                }
+            }
+        }
+        &-contacts { 
+            .portfolio-title  { 
+                text-align: center;
+            }
+            .container { 
+                padding: 0;
+            }
+            &_content { 
+                border-left: 0;
+                border-right: 0;
+                border-bottom: 0;
+                ul { 
+                    padding: 0;
+                    li { 
+                        padding: 20px 0;
+                        border-bottom: 1px solid #e4e4e4; 
+                        text-align: center;
+                    }
                 }
             }
         }

@@ -1,17 +1,17 @@
-[
-    { 
-        "img": "/portfolio/img/landing-recyrcle.jpg", 
-        "url": "https://github.com/AndrewProkopenko/recyrcle",
-        "viewUrl": "https://andrewprokopenko.github.io/recyrcle/",
-        "title": "Recyrcle Layout", 
-        "description": "Layout Development" 
-    },
+[ 
     { 
         "img": "/portfolio/img/landing-mac.jpg", 
         "url": "https://github.com/AndrewProkopenko/mac_repair",
         "viewUrl": "https://andrewprokopenko.github.io/mac_repair/",
         "title": "Mac Repair Layout", 
         "description": "Layout Development, used by Vue for price calculation"  
+    },
+    { 
+        "img": "/portfolio/img/landing-recyrcle.jpg", 
+        "url": "https://github.com/AndrewProkopenko/recyrcle",
+        "viewUrl": "https://andrewprokopenko.github.io/recyrcle/",
+        "title": "Recyrcle Layout", 
+        "description": "Layout Development" 
     },
     { 
         "img": "/portfolio/img/bundaloo.jpg", 

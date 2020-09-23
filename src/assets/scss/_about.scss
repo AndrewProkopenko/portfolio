@@ -1,6 +1,6 @@
 .portfolio-about { 
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     position: relative;
     z-index: 2;
     background: $bg-color; 
@@ -11,19 +11,24 @@
     }
     p { 
         text-align: center;
+        margin: 15px 0 0 0 ;
         a {  
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            font-size: 18px;
+           
+            font-size: 16px;
+            line-height: 20px;
             color: #000; 
-            text-decoration: none;
-            svg {   
-               transform: perspective(15px) translateZ(-15px) translateX(-8px);
-               transition: 300ms ease;
-            }
+            text-decoration: none;  
             span{ 
                 position: relative;
+                svg { 
+                    margin: 0 3px;
+                    width: 18px;
+                    height: 18px; 
+                    transition: 300ms ease;
+                }
                 &::after { 
                     content: '';
                     position: absolute;
@@ -36,11 +41,13 @@
                 }
             }
             &:hover {  
+                color: #666;
                 span::after { 
                    opacity: 0;
                 }
-                svg {   
-                    transform: perspective(15px) translateZ(-10px) translateX(-8px);
+                svg {     
+                    transform: translateX(2px);
+                    fill: #666;
                 }
             }
         }
