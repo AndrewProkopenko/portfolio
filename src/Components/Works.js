@@ -52,13 +52,13 @@ function Works() {
           <div className="portfolio-works_content">
             
               <div className={`portfolio-works_content-box ${isActive(1)}`}>
-                 <WorkCategoryConteiner data={ReactData}  />
+                 <WorkCategoryConteiner data={ReactData} tabClassName='react' />
               </div>
               <div className={`portfolio-works_content-box ${isActive(2)}`}>
-                <WorkCategoryConteiner data={VueData}  />
+                <WorkCategoryConteiner data={VueData} tabClassName='vue'  />
               </div>
               <div className={`portfolio-works_content-box ${isActive(3)}`}>
-                <WorkCategoryConteiner data={HtmlData}  />
+                <WorkCategoryConteiner data={HtmlData} tabClassName='html'  />
               </div>
           </div>
         </div> 

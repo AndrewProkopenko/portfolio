@@ -1,6 +1,7 @@
 [
     { 
         "img": "/portfolio/img/vue.jpg", 
+        "imgWrap": "/portfolio/img/vue-wrap.png", 
         "url": "https://github.com/AndrewProkopenko/vue-blog-app",
         "viewUrl": "",
         "title": "Vue Blog App", 
@@ -8,6 +9,7 @@
     } ,
     { 
         "img": "/portfolio/img/vue.jpg", 
+        "imgWrap": "/portfolio/img/vue-wrap.png", 
         "url": "https://github.com/AndrewProkopenko/vue-online-shop",
         "viewUrl": "",
         "title": "Vue Shop", 
@@ -15,6 +17,7 @@
     } ,
     { 
         "img": "/portfolio/img/vue.jpg", 
+        "imgWrap": "/portfolio/img/vue-wrap.png", 
         "url": "https://github.com/AndrewProkopenko/vue_vuex",
         "viewUrl": "",
         "title": "Vuex CRUD App", 
@@ -22,6 +25,7 @@
     } ,
     { 
         "img": "/portfolio/img/vue.jpg", 
+        "imgWrap": "/portfolio/img/vue-wrap.png", 
         "url": "https://github.com/AndrewProkopenko/vue_crud",
         "viewUrl": "",
         "title": "Vue CRUD App", 

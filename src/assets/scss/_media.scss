@@ -21,13 +21,27 @@
                    
                 }
                 .item:hover { 
-                    a, .info-btn { 
+                    a { 
+                        opacity: 1;
+                    }
+                    .info-btn { 
                         opacity: 1;
                     }
                     h5 { 
                         opacity: 0;
                     }
-    
+                    
+                }
+                .item-html:hover { 
+                    a {  
+                        &:hover {
+                            background:  #746d61;
+                            svg { 
+                                fill: #fff;
+                            }
+                        }
+                        
+                    }
                 }
             }
         }

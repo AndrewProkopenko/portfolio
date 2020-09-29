@@ -1,6 +1,7 @@
 [
     { 
         "img": "/portfolio/img/react.jpg", 
+        "imgWrap": "/portfolio/img/react-wrap.png", 
         "url": "https://github.com/AndrewProkopenko/react_meal",
         "viewUrl": "https://andrewprokopenko.github.io/react_meal/",
         "title": "Meal App", 
@@ -8,6 +9,7 @@
     },
     { 
         "img": "/portfolio/img/react.jpg", 
+        "imgWrap": "/portfolio/img/react-wrap.png", 
         "url": "https://github.com/AndrewProkopenko/react_crud",
         "viewUrl": "",
         "title": "CRUD App", 
@@ -15,13 +17,15 @@
     },
     { 
         "img": "/portfolio/img/react.jpg", 
+        "imgWrap": "/portfolio/img/react-wrap.png", 
         "url": "https://github.com/AndrewProkopenko/react_quiz",
         "viewUrl": "https://andrewprokopenko.github.io/react_quiz/",
         "title": "Quiz App", 
         "description": "React Quiz App with Hard Javascript Questions" 
     },
     { 
-        "img": "/portfolio/img/react.jpg", 
+        "img": "/portfolio/img/react.jpg",
+        "imgWrap": "/portfolio/img/react-wrap.png",  
         "url": "https://github.com/AndrewProkopenko/react_calc",
         "viewUrl": "https://andrewprokopenko.github.io/react_calc/",
         "title": "Calculator on React", 
@@ -29,6 +33,7 @@
     },
     { 
         "img": "/portfolio/img/react.jpg", 
+        "imgWrap": "/portfolio/img/react-wrap.png", 
         "url": "https://github.com/AndrewProkopenko/react-wp",
         "viewUrl": "",
         "title": "WP React", 

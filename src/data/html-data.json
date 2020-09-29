@@ -11,7 +11,7 @@
         "url": "https://github.com/AndrewProkopenko/recyrcle",
         "viewUrl": "https://andrewprokopenko.github.io/recyrcle/",
         "title": "Recyrcle Layout", 
-        "description": "Layout Development" 
+        "description": "Recyrcle Layout" 
     },
     { 
         "img": "/portfolio/img/bundaloo.jpg", 
@@ -81,6 +81,13 @@
         "url": "https://github.com/AndrewProkopenko/wash_repair",
         "viewUrl": "https://andrewprokopenko.github.io/wash_repair/",
         "title": "Washer Repair Layout", 
+        "description": "Layout Development"  
+    },
+    { 
+        "img": "/portfolio/img/landing-training.jpg", 
+        "url": "https://github.com/AndrewProkopenko/training_repair",
+        "viewUrl": "https://andrewprokopenko.github.io/training_repair/",
+        "title": "Training Repair Layout", 
         "description": "Layout Development"  
     }
 ]
