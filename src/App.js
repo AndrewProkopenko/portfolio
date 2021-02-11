@@ -3,10 +3,10 @@ import {
   BrowserRouter as Router
 } from 'react-router-dom' 
 
-import Header from './Components/Header'
-import Works from './Components/Works'
-import Contacts from './Components/Contacts'
-import About from './Components/About'
+import Header from './components/Header'
+import Works from './components/works/Works'
+import Contacts from './components/Contacts'
+import About from './components/About'
 
 function App() {
    

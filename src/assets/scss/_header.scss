@@ -1,11 +1,9 @@
 .portfolio-header {
-    position: sticky;
-    top: 0px;
+    // position: sticky;
+    // top: 0px;
     display: flex;
-    align-items: center;
-    // margin: 100px 0; 
-    height: 60vh;
-    // margin-top: calc(50vh - 100px);
+    align-items: center; 
+    height: 60vh; 
     &-title { 
         display: flex;
         flex-direction: column;

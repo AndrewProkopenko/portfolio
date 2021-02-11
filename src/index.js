@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/scss/style.scss'; 
+import "animate.css/animate.compat.css"
+
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
