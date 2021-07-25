@@ -1,5 +1,21 @@
 [
     { 
+        "img": "/portfolio/img/sitebuilder.jpg", 
+        "imgWrap": "", 
+        "url": "https://github.com/AndrewProkopenko/builder",
+        "viewUrl": "https://sitebuilder-74d57.web.app/",
+        "title": "Site builder", 
+        "description": "React App on public API" 
+    },
+    { 
+        "img": "/portfolio/img/react.jpg", 
+        "imgWrap": "/portfolio/img/react-wrap.png", 
+        "url": "https://github.com/AndrewProkopenko/chat-woman-up",
+        "viewUrl": "https://chat-women-up.web.app/",
+        "title": "Chat", 
+        "description": "Chat on React and Firebase" 
+    },
+    { 
         "img": "/portfolio/img/react.jpg", 
         "imgWrap": "/portfolio/img/react-wrap.png", 
         "url": "https://github.com/AndrewProkopenko/react_meal",
@@ -38,5 +54,13 @@
         "viewUrl": "",
         "title": "WP React", 
         "description": "React App on Wordpress backend" 
+    },
+    { 
+        "img": "/portfolio/img/portfolio.jpg", 
+        "imgWrap": "", 
+        "url": "https://github.com/AndrewProkopenko/portfolio",
+        "viewUrl": "/",
+        "title": "Portfolio", 
+        "description": "This is also React App" 
     }
 ]

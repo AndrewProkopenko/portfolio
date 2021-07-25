@@ -12,37 +12,29 @@ function Works() {
         setActiveTab(tab)
     }
  
-    const menu = (
-      <ul>
-          <li className="active" >
-              <Link 
-                to="#" 
-                className={activeTab === 'react' ? 'active' : ''} 
-                onClick={(e)=>{handleTabs(e, 'react')}}  
-              >
-                  React 
-              </Link>
-          </li>
-          <li>
-              <Link 
-                to="#" 
-                className={activeTab === 'vue' ? 'active' : ''} 
-                onClick={(e)=>{handleTabs(e, 'vue')}}  
-              >
-                Vue 
-              </Link>
-          </li>
-          <li>
-              <Link 
-                to="#" 
-                className={activeTab === 'html' ? 'active' : ''} 
-                onClick={(e)=>{handleTabs(e, 'html')}}  
-              >
-                  HTML 
-              </Link>
-          </li>
-      </ul> 
-    )
+    const menu = [
+      {
+        title: 'React', 
+        id: 'react', 
+        isActive: true
+      },
+      {
+        title: 'Vue', 
+        id: 'vue', 
+        isActive: false
+      },
+      {
+        title: 'PHP', 
+        id: 'php', 
+        isActive: false
+      },
+      {
+        title: 'HTML', 
+        id: 'html', 
+        isActive: false
+      },
+    ];
+   
 
     return (
         <div className='portfolio-works'>  
@@ -53,7 +45,21 @@ function Works() {
                 Works presented here, <br/>
                 click for more view on GitHub 
               </p>
-              { menu }
+              <ul>
+                {
+                  menu.map( menuItem => (
+                    <li className={menuItem.isActive ? 'active' : ''} key={menuItem.id} >
+                        <Link 
+                          to="#" 
+                          className={activeTab === menuItem.id ? 'active' : ''} 
+                          onClick={(e)=>{handleTabs(e, menuItem.id)}}  
+                        >
+                            {menuItem.title}
+                        </Link>
+                    </li>
+                  ))
+                }
+              </ul> 
           </div>
           <div className="portfolio-works_content">
 

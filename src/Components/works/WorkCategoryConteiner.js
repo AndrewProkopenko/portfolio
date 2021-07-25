@@ -6,18 +6,20 @@ import SingleWorkItem from './SingleWorkItem'
 
 import vue from  '../../data/vue-data.json'
 import react from  '../../data/react-data.json'
+import php from  '../../data/php-data.json'
 import html from  '../../data/html-data.json'
 
 function WorkCategoryConteiner(props) {
 
-    const data = {vue, react, html} 
+    const data = {vue, react, html, php}  
     const items = data[props.data]
-  
+   
     return (
         
         <ScrollAnimation  duration={0.5}  animateIn="fadeIn">
         <div className='row'>
             {
+                items.length && 
                 items.map( (item, index) => (   
                     <SingleWorkItem key={index} item={item} index={index} tabClassName={props.tabClassName} /> 
                 ))

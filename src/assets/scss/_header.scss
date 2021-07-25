@@ -40,7 +40,7 @@
                     margin: 5px 0;
                     text-decoration: none;
                     color: inherit;
-                    transition: 300ms ease;
+                    transition: $transition250;
                     cursor: pointer;
                     &:hover, &:active {
                          color: $gold ;

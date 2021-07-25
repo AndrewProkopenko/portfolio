@@ -21,8 +21,8 @@ function Contacts() {
                   </span>
                 </li>  
                 <li>
-                  <a href="skype:i.andrewprokopenko?chat" >
-                    Skype: i.andrewprokopenko
+                  <a href="https://vk.com/andrewprokopenko" target='_blank' rel="noopener noreferrer" >
+                    vk: Andrew Prokopenko
                   </a> 
                 </li>  
                 <li>
